@@ -2,5 +2,6 @@
 
 {
   imports = [ ../shared ];
-  home.homeDirectory = "/Users/${identity.username}";
+  home.username = "gratian";
+  home.homeDirectory = "/Users/gratian";
 }
