@@ -3,7 +3,7 @@
 {
   programs.zsh = {
     enable = true;
-    dotDir = "${config.xdg.configHome}/zsh";
+    dotDir = ".config/zsh";
     shellAliases = {
       "2." = "../..";
       "3." = "../../..";
